@@ -1,5 +1,5 @@
 # === Célula 1: instalar bibliotecas necessárias ===
-!pip install --quiet \
+pip install --quiet \
   streamlit \
   folium \
   geopandas \
