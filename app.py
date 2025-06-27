@@ -1,3 +1,12 @@
+# === Célula 1: instalar bibliotecas necessárias ===
+!pip install --quiet \
+  streamlit \
+  folium \
+  geopandas \
+  geobr \
+  shapely==1.8.5 \
+  streamlit-folium \
+  pyngrok
 
 import streamlit as st
 import rasterio
